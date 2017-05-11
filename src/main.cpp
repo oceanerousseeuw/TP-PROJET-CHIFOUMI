@@ -5,9 +5,10 @@
 int main() {
     google::InitGoogleLogging("log_chifoumi");
     google::SetLogDestination(google::GLOG_INFO, "log_chifoumi");
-    std::string texte = "Hello world !";
+    /*std::string texte = "Hello world !";
     std::cout << texte << std::endl;
     LOG(INFO) << "test" ;
+    */
 
     std::string move;
     std::cout << "move (pierre, feuille, ciseaux, quit):";
