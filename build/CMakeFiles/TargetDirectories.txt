@@ -1,0 +1,3 @@
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles/doc.dir
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles/main.out.dir
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles/main_test.out.dir
