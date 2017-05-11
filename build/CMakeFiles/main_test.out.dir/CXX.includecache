@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/main_test.cpp
+CppUTest/CommandLineTestRunner.h
+-
+

@@ -1,0 +1,4 @@
+Log file created at: 2017/05/11 11:13:35
+Running on machine: prokofievl
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0511 11:13:35.343562 25227 main.cpp:9] test

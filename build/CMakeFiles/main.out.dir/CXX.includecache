@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/main.cpp
+iostream
+-
+glog/logging.h
+-
+
