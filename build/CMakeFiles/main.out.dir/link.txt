@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++14 -Wall -Wextra -g    CMakeFiles/main.out.dir/src/main.cpp.o  -o main.out -rdynamic -lglog -lstdc++ -lCppUTest -lCppUTestExt 
