@@ -1,8 +1,13 @@
 cmake_minimum_required( VERSION 3.0 )
-
-project( CHIFOUMI )
-
+project( chifoumi )
 set( CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++14 -Wall -Wextra" )
+set( CMAKE_BUILD_TYPE Debug )  # dans la vraie vie, ne pas mettre cette ligne
 
-add_executable( chifoumi.out
-    src/main.cpp)
+# tests unitaires
+find_package( PkgConfig REQUIRED )
+pkg_check_modules( PKG REQUIRED libglog )
+include_directories( ${PKG_INCLUDE_DIRS} )
+
+add_executable( chifoumi.out src/main.cpp )
+target_link_libraries( chifoumi.out ${PKG_LIBRARIES} )
+
