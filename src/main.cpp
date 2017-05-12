@@ -11,13 +11,18 @@ int main() {
     */
 
     std::string move;
-    std::cout << "move (pierre, feuille, ciseaux, quit):";
-    std::cin >> move;
     game g;
+    do{
+      std::cout << "move (pierre, feuille, ciseaux, quit):";
+      std::cin >> move;
+      
+      g.play(move);
+      std::cout << move  << " - " << g.getLastAiMove()<< " : " <<g.getLastResult() << std::endl;
+ 
+    }while (move != "quit");
+    
     if (move == "quit"){
-    std::cout << "Au revoir !" << std::endl;
-    }else{
-    g.play(move);
+      std::cout << "Au revoir !" << std::endl;
     }
     
     return 0;

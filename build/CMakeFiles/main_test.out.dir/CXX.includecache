@@ -6,7 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/main_test.cpp
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.hpp
+iostream
+-
+
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/tests.cpp
+game.hpp
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.hpp
 CppUTest/CommandLineTestRunner.h
 -
 

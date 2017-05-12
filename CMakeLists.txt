@@ -8,7 +8,7 @@ find_package( PkgConfig REQUIRED )
 pkg_check_modules( PKG REQUIRED libglog cpputest)
 include_directories( ${PKG_INCLUDE_DIRS} )
 
-add_executable( main_test.out src/main_test.cpp )
+add_executable( main_test.out src/main_test.cpp src/tests.cpp src/game.cpp )
 target_link_libraries( main_test.out ${PKG_LIBRARIES} )
 
 

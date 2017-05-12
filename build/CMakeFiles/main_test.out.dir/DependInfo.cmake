@@ -4,7 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.cpp" "/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles/main_test.out.dir/src/game.cpp.o"
   "/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/main_test.cpp" "/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles/main_test.out.dir/src/main_test.cpp.o"
+  "/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/tests.cpp" "/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles/main_test.out.dir/src/tests.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

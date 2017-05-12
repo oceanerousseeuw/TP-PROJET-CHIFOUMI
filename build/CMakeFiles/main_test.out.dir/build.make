@@ -72,14 +72,64 @@ CMakeFiles/main_test.out.dir/src/main_test.cpp.o.provides: CMakeFiles/main_test.
 
 CMakeFiles/main_test.out.dir/src/main_test.cpp.o.provides.build: CMakeFiles/main_test.out.dir/src/main_test.cpp.o
 
+CMakeFiles/main_test.out.dir/src/tests.cpp.o: CMakeFiles/main_test.out.dir/flags.make
+CMakeFiles/main_test.out.dir/src/tests.cpp.o: ../src/tests.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main_test.out.dir/src/tests.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main_test.out.dir/src/tests.cpp.o -c /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/tests.cpp
+
+CMakeFiles/main_test.out.dir/src/tests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_test.out.dir/src/tests.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/tests.cpp > CMakeFiles/main_test.out.dir/src/tests.cpp.i
+
+CMakeFiles/main_test.out.dir/src/tests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_test.out.dir/src/tests.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/tests.cpp -o CMakeFiles/main_test.out.dir/src/tests.cpp.s
+
+CMakeFiles/main_test.out.dir/src/tests.cpp.o.requires:
+.PHONY : CMakeFiles/main_test.out.dir/src/tests.cpp.o.requires
+
+CMakeFiles/main_test.out.dir/src/tests.cpp.o.provides: CMakeFiles/main_test.out.dir/src/tests.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/tests.cpp.o.provides.build
+.PHONY : CMakeFiles/main_test.out.dir/src/tests.cpp.o.provides
+
+CMakeFiles/main_test.out.dir/src/tests.cpp.o.provides.build: CMakeFiles/main_test.out.dir/src/tests.cpp.o
+
+CMakeFiles/main_test.out.dir/src/game.cpp.o: CMakeFiles/main_test.out.dir/flags.make
+CMakeFiles/main_test.out.dir/src/game.cpp.o: ../src/game.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/CMakeFiles $(CMAKE_PROGRESS_3)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/main_test.out.dir/src/game.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/main_test.out.dir/src/game.cpp.o -c /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.cpp
+
+CMakeFiles/main_test.out.dir/src/game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main_test.out.dir/src/game.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.cpp > CMakeFiles/main_test.out.dir/src/game.cpp.i
+
+CMakeFiles/main_test.out.dir/src/game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main_test.out.dir/src/game.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.cpp -o CMakeFiles/main_test.out.dir/src/game.cpp.s
+
+CMakeFiles/main_test.out.dir/src/game.cpp.o.requires:
+.PHONY : CMakeFiles/main_test.out.dir/src/game.cpp.o.requires
+
+CMakeFiles/main_test.out.dir/src/game.cpp.o.provides: CMakeFiles/main_test.out.dir/src/game.cpp.o.requires
+	$(MAKE) -f CMakeFiles/main_test.out.dir/build.make CMakeFiles/main_test.out.dir/src/game.cpp.o.provides.build
+.PHONY : CMakeFiles/main_test.out.dir/src/game.cpp.o.provides
+
+CMakeFiles/main_test.out.dir/src/game.cpp.o.provides.build: CMakeFiles/main_test.out.dir/src/game.cpp.o
+
 # Object files for target main_test.out
 main_test_out_OBJECTS = \
-"CMakeFiles/main_test.out.dir/src/main_test.cpp.o"
+"CMakeFiles/main_test.out.dir/src/main_test.cpp.o" \
+"CMakeFiles/main_test.out.dir/src/tests.cpp.o" \
+"CMakeFiles/main_test.out.dir/src/game.cpp.o"
 
 # External object files for target main_test.out
 main_test_out_EXTERNAL_OBJECTS =
 
 main_test.out: CMakeFiles/main_test.out.dir/src/main_test.cpp.o
+main_test.out: CMakeFiles/main_test.out.dir/src/tests.cpp.o
+main_test.out: CMakeFiles/main_test.out.dir/src/game.cpp.o
 main_test.out: CMakeFiles/main_test.out.dir/build.make
 main_test.out: CMakeFiles/main_test.out.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable main_test.out"
@@ -90,6 +140,8 @@ CMakeFiles/main_test.out.dir/build: main_test.out
 .PHONY : CMakeFiles/main_test.out.dir/build
 
 CMakeFiles/main_test.out.dir/requires: CMakeFiles/main_test.out.dir/src/main_test.cpp.o.requires
+CMakeFiles/main_test.out.dir/requires: CMakeFiles/main_test.out.dir/src/tests.cpp.o.requires
+CMakeFiles/main_test.out.dir/requires: CMakeFiles/main_test.out.dir/src/game.cpp.o.requires
 .PHONY : CMakeFiles/main_test.out.dir/requires
 
 CMakeFiles/main_test.out.dir/clean:
