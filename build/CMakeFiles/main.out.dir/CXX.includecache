@@ -6,13 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.cpp
-time.h
--
-game.hpp
-/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.hpp
-
 /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.hpp
 iostream
 -
+
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/main.cpp
+iostream
+-
+glog/logging.h
+-
+game.hpp
+/etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src/game.hpp
 
