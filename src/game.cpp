@@ -2,16 +2,19 @@
 #include "game.hpp"
 
 std::string game::getLastResult(){
+  /// permet de recuperer le resultat en privé
   return _lastResult;
 }
 
 std::string game::getLastAiMove(){
+  /// permet de recuperer le mouvement de l'IA en privé
   return _lastAiMove;
 }
 
 void game::play(std::string move){
     std::string AiMove;
     int ai;
+    /// on crée le mouvement de l'IA
     ai = rand() % 3;
     switch(ai){
     case 0:
@@ -28,7 +31,8 @@ void game::play(std::string move){
       break;
     }
 
-
+    ///on compare le mouvement de l'IA et celui du joueur
+    ///on affecte le dernier resultat de l'IA
     //egalite
     if(AiMove == move){
       _lastResult = "égalité";

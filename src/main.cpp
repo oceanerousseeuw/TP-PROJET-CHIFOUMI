@@ -2,14 +2,18 @@
 #include <glog/logging.h>
 #include "game.hpp"
 
+/*! \mainpage chifoumi
+ * @author moi
+ *
+ * Un jeu petit mais puissant !
+ */
+
 int main() {
     google::InitGoogleLogging("log_chifoumi");
     google::SetLogDestination(google::GLOG_INFO, "log_chifoumi");
-    /*std::string texte = "Hello world !";
-    std::cout << texte << std::endl;
-    LOG(INFO) << "test" ;
-    */
-
+    // LOG(INFO) << "test" ;
+    
+    ///On lance la boucle de jeu tant qu'on ne demande pas de quitter 
     std::string move;
     game g;
     do{

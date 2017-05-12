@@ -15,13 +15,15 @@ target_link_libraries( main_test.out ${PKG_LIBRARIES} )
 add_executable( main.out src/main.cpp src/game.cpp )
 target_link_libraries( main.out ${PKG_LIBRARIES} )
 
+
 #build doxygen documentation
 find_package(Doxygen)
 if(DOXYGEN_FOUND)
-    configure_file(Doxyfile.in ${CMAKE_BINARY_DIR} ../doc_dev/Doxyfile)
+    configure_file(Doxyfile.in ${CMAKE_BINARY_DIR}/Doxyfile)
     add_custom_target(doc
-        ${DOXYGEN_EXECUTABLE} ${CMAKE_BINARY_DIR} ../doc_dev/Doxyfile
+        ${DOXYGEN_EXECUTABLE} ${CMAKE_BINARY_DIR}/Doxyfile
         WORKING_DIRECTORY ${CMAKE_BINARY_DIR})
       install(DIRECTORY ${CMAKE_BINARY_DIR}/doc/html
         DESTINATION share/doc/${CMAKE_PROJECT_NAME})
 endif()
+

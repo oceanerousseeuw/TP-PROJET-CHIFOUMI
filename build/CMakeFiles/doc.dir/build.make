@@ -46,7 +46,7 @@ CMAKE_BINARY_DIR = /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOU
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	/usr/bin/doxygen /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build ../doc_dev/Doxyfile
+	/usr/bin/doxygen /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/Doxyfile
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make

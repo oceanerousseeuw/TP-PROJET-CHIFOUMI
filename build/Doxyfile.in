@@ -1,5 +1,0 @@
-PROJECT_NAME           = chifoumi
-OUTPUT_DIRECTORY       = /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/build/doc/
-INPUT                  = /etudiants/oroussee/Documents/genie_logiciel/TP-PROJET-CHIFOUMI/src
-EXTRACT_ALL            = YES
-RECURSIVE              = YES
